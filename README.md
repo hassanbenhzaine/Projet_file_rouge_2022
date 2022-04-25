@@ -49,7 +49,7 @@ Client:
 
 **Dictionnaire des données** 
 
- A faire ( nom, type de donné , descriptif))  un tableau
+![alt text](https://github.com/hassanbenhzaine/Projet_file_rouge_2022/blob/dev/diagrams/data_dictionary.svg)
 
 **Les technologies utilisées**
 UML, Spring Boot 2, Docker, Jenkins, JUnit, PostgreSQL, Angular, HTML, CSS
