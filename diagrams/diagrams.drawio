@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T14:30:16.022Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="2_ql9CSYnUoBmoORlirM" version="17.4.6" type="github">
-  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="459" dy="305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2022-04-25T01:04:16.797Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="WO09zFms73lD3qHOfz4I" version="17.4.6" type="github" pages="2">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Class diagram">
+    <mxGraphModel dx="624" dy="305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -44,7 +44,7 @@
         <mxCell id="6hNlM7lMKpfNJvF36o9Y-7" value="- password: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="156" width="146" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="9pqVWcKdIJiDRD3snbKj-0" value="- address: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
+        <mxCell id="9pqVWcKdIJiDRD3snbKj-0" value="- address: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="182" width="146" height="26" as="geometry" />
         </mxCell>
         <mxCell id="6hNlM7lMKpfNJvF36o9Y-8" value="- dateOfBirth: LocalDate" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
@@ -398,24 +398,24 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9pqVWcKdIJiDRD3snbKj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aLG8cIRjWpftHJLMq3h6-0" target="zkfFHV4jXpPFQw0GAbJ--0">
+        <mxCell id="9pqVWcKdIJiDRD3snbKj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=10;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aLG8cIRjWpftHJLMq3h6-0" target="zkfFHV4jXpPFQw0GAbJ--0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="259" y="385" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9pqVWcKdIJiDRD3snbKj-10" value="owner" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9pqVWcKdIJiDRD3snbKj-9">
+        <mxCell id="9pqVWcKdIJiDRD3snbKj-10" value="owner" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9pqVWcKdIJiDRD3snbKj-9" vertex="1" connectable="0">
           <mxGeometry x="0.1811" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9pqVWcKdIJiDRD3snbKj-11" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9pqVWcKdIJiDRD3snbKj-9">
+        <mxCell id="9pqVWcKdIJiDRD3snbKj-11" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9pqVWcKdIJiDRD3snbKj-9" vertex="1" connectable="0">
           <mxGeometry x="0.7474" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9pqVWcKdIJiDRD3snbKj-12" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9pqVWcKdIJiDRD3snbKj-9">
+        <mxCell id="9pqVWcKdIJiDRD3snbKj-12" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9pqVWcKdIJiDRD3snbKj-9" vertex="1" connectable="0">
           <mxGeometry x="-0.8415" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -453,16 +453,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLG8cIRjWpftHJLMq3h6-12" value="name can be:&lt;br&gt;-&amp;nbsp;&lt;span&gt;Advertising&lt;/span&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;- Promotion&lt;br&gt;- Branding" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="aLG8cIRjWpftHJLMq3h6-12" value="name can be:&lt;br&gt;-&amp;nbsp;&lt;span&gt;ADVERTISING&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;- PROMOTION&lt;br&gt;- BRANDING" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="629" y="123" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9pqVWcKdIJiDRD3snbKj-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;endSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9pqVWcKdIJiDRD3snbKj-1" target="6hNlM7lMKpfNJvF36o9Y-0">
+        <mxCell id="9pqVWcKdIJiDRD3snbKj-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;endSize=10;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9pqVWcKdIJiDRD3snbKj-1" target="6hNlM7lMKpfNJvF36o9Y-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9pqVWcKdIJiDRD3snbKj-1" value="name can be:&lt;br&gt;- ADMIN&lt;span&gt;&lt;br&gt;&lt;/span&gt;- MANAGER&lt;br&gt;- AGENT&lt;br&gt;- CLIENT" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="9pqVWcKdIJiDRD3snbKj-1" value="name can be:&lt;br&gt;- ADMIN&lt;span&gt;&lt;br&gt;&lt;/span&gt;- MANAGER&lt;br&gt;- AGENT&lt;br&gt;- CLIENT" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="50" y="730" width="100" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="9pqVWcKdIJiDRD3snbKj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9pqVWcKdIJiDRD3snbKj-3" target="aLG8cIRjWpftHJLMq3h6-0">
+        <mxCell id="9pqVWcKdIJiDRD3snbKj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9pqVWcKdIJiDRD3snbKj-3" target="aLG8cIRjWpftHJLMq3h6-0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="100" y="290" />
@@ -470,20 +470,109 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9pqVWcKdIJiDRD3snbKj-3" value="&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;ProposalStatus&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="9pqVWcKdIJiDRD3snbKj-3" value="&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;ProposalStatus&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="70" y="120" width="100" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="9pqVWcKdIJiDRD3snbKj-4" value="NO_REPLY" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9pqVWcKdIJiDRD3snbKj-3">
+        <mxCell id="9pqVWcKdIJiDRD3snbKj-4" value="NO_REPLY" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9pqVWcKdIJiDRD3snbKj-3" vertex="1">
           <mxGeometry y="40" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9pqVWcKdIJiDRD3snbKj-5" value="ACCEPTED" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9pqVWcKdIJiDRD3snbKj-3">
+        <mxCell id="9pqVWcKdIJiDRD3snbKj-5" value="ACCEPTED" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9pqVWcKdIJiDRD3snbKj-3" vertex="1">
           <mxGeometry y="70" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9pqVWcKdIJiDRD3snbKj-6" value="REJECTED" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9pqVWcKdIJiDRD3snbKj-3">
+        <mxCell id="9pqVWcKdIJiDRD3snbKj-6" value="REJECTED" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9pqVWcKdIJiDRD3snbKj-3" vertex="1">
           <mxGeometry y="100" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9pqVWcKdIJiDRD3snbKj-7" value="DRAFT" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9pqVWcKdIJiDRD3snbKj-3">
+        <mxCell id="9pqVWcKdIJiDRD3snbKj-7" value="DRAFT" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9pqVWcKdIJiDRD3snbKj-3" vertex="1">
           <mxGeometry y="130" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="urCxDdQj4GF5VxQZKp7n" name="Data dictionary">
+    <mxGraphModel dx="1065" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XstuJa61GhE0sBvVssHM-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="425" y="10" width="400" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="OusfKds_at5AQzeowj5j-37" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #a7c942 ; color: #ffffff ; border: 1px solid #98bf21&quot;&gt;&lt;th align=&quot;left&quot;&gt;Nom&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Type de donnée&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Description&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;id&lt;/td&gt;&lt;td&gt;Int4&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;firstName&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;Varchar(255)&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;lastName&lt;/td&gt;&lt;td&gt;Varchar(255)&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;username&lt;/td&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;Varchar(255)&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;Identifant de l&#39;utilisateur&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;email&lt;br&gt;&lt;/td&gt;&lt;td&gt;Varchar(255)&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;password&lt;/td&gt;&lt;td&gt;Varchar(255)&lt;/td&gt;&lt;td&gt;Mot de passe composé de &lt;br&gt;8 caractères minimum&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;address&lt;/td&gt;&lt;td&gt;Varchar(255)&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateOfBirth&lt;/td&gt;&lt;td&gt;Date&lt;/td&gt;&lt;td&gt;La date de naissance ne &lt;br&gt;peut pas dépasser la date actuel&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;isActive&lt;/td&gt;&lt;td&gt;Boolean&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="XstuJa61GhE0sBvVssHM-3">
+          <mxGeometry y="27.499999999999996" width="400" height="256.6666666666667" as="geometry" />
+        </mxCell>
+        <mxCell id="XstuJa61GhE0sBvVssHM-2" value="User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XstuJa61GhE0sBvVssHM-3">
+          <mxGeometry x="170" width="60" height="27.499999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="dPH4agpUvrjOKXyYmXhM-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="94" y="17" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-MM9mBMN90X2BZjK36Aq-1" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #a7c942 ; color: #ffffff ; border: 1px solid #98bf21&quot;&gt;&lt;th align=&quot;left&quot;&gt;Nom&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Type de donnée&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Description&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;id&lt;/td&gt;&lt;td&gt;Int4&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;name&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;Varchar(255)&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;phone&lt;/td&gt;&lt;td&gt;Varchar(255)&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;email&lt;/td&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;Varchar(255)&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="dPH4agpUvrjOKXyYmXhM-8">
+          <mxGeometry y="22.105263157894736" width="230" height="117.89473684210527" as="geometry" />
+        </mxCell>
+        <mxCell id="XstuJa61GhE0sBvVssHM-4" value="Person" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dPH4agpUvrjOKXyYmXhM-8">
+          <mxGeometry x="90.60606060606062" width="41.81818181818182" height="22.105263157894736" as="geometry" />
+        </mxCell>
+        <mxCell id="dPH4agpUvrjOKXyYmXhM-9" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="92" y="166" width="260" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh5BvlAe6S_Vlc4IOakq-1" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #a7c942 ; color: #ffffff ; border: 1px solid #98bf21&quot;&gt;&lt;th align=&quot;left&quot;&gt;Nom&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Type de donnée&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Description&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;id&lt;/td&gt;&lt;td&gt;Int8&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;country&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;Varchar(255)&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;Pays avec &lt;br&gt;format ISO 3366-1&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;city&lt;/td&gt;&lt;td&gt;Varchar(255)&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;state&lt;/td&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;Varchar(255)&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;La région&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;zipCode&lt;/td&gt;&lt;td&gt;Varchar(255)&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;address&lt;/td&gt;&lt;td&gt;Varchar(255)&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="dPH4agpUvrjOKXyYmXhM-9">
+          <mxGeometry y="37.02029397509271" width="260" height="172.97970602490727" as="geometry" />
+        </mxCell>
+        <mxCell id="KWnA7HAl9fY-_njNfxfe-1" value="&lt;span&gt;PersonAddress&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dPH4agpUvrjOKXyYmXhM-9">
+          <mxGeometry x="106.36363636363636" width="47.27272727272727" height="32.433694879670114" as="geometry" />
+        </mxCell>
+        <mxCell id="dPH4agpUvrjOKXyYmXhM-10" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="595" y="307" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="dPH4agpUvrjOKXyYmXhM-11" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #a7c942 ; color: #ffffff ; border: 1px solid #98bf21&quot;&gt;&lt;th align=&quot;left&quot;&gt;Nom&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Type de donnée&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Description&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;id&lt;/td&gt;&lt;td&gt;Int8&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;country&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;Varchar(255)&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;city&lt;/td&gt;&lt;td&gt;Varchar(255)&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;state&lt;/td&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;Varchar(255)&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;zipCode&lt;/td&gt;&lt;td&gt;Varchar(255)&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;address&lt;/td&gt;&lt;td&gt;Varchar(255)&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="dPH4agpUvrjOKXyYmXhM-10">
+          <mxGeometry y="33.49455169175055" width="230.00000000000003" height="156.5054483082494" as="geometry" />
+        </mxCell>
+        <mxCell id="dPH4agpUvrjOKXyYmXhM-12" value="&lt;span&gt;OrganizationAddress&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dPH4agpUvrjOKXyYmXhM-10">
+          <mxGeometry x="94.09090909090911" width="41.81818181818183" height="29.344771557796765" as="geometry" />
+        </mxCell>
+        <mxCell id="dkQKOaU93ZyjCV6nUZSm-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="450" y="830" width="310" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="U8VC7jkrHe3njxeNSXWw-3" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #a7c942 ; color: #ffffff ; border: 1px solid #98bf21&quot;&gt;&lt;th align=&quot;left&quot;&gt;Nom&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Type de donnée&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Description&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;id&lt;/td&gt;&lt;td&gt;Int2&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;name&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;Varchar(255)&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&quot;text-align: center ; background-color: rgb(248 , 249 , 250)&quot;&gt;Le nom du role peut être&lt;/span&gt;&lt;br style=&quot;text-align: center ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;text-align: center ; background-color: rgb(248 , 249 , 250)&quot;&gt;- ADMIN&lt;/span&gt;&lt;span style=&quot;text-align: center ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center ; background-color: rgb(248 , 249 , 250)&quot;&gt;- MANAGER&lt;/span&gt;&lt;br style=&quot;text-align: center ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;text-align: center ; background-color: rgb(248 , 249 , 250)&quot;&gt;- AGENT&lt;/span&gt;&lt;br style=&quot;text-align: center ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;text-align: center ; background-color: rgb(248 , 249 , 250)&quot;&gt;- CLIENT&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;description&lt;/td&gt;&lt;td&gt;Varchar(255)&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="dkQKOaU93ZyjCV6nUZSm-4">
+          <mxGeometry y="30" width="310.00000000000006" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dkQKOaU93ZyjCV6nUZSm-3" value="Role" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dkQKOaU93ZyjCV6nUZSm-4">
+          <mxGeometry x="120.00000000000001" width="60.00000000000001" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eWpMbG8aKiFwIkCeqAVB-2" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="150" y="1040" width="380" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gCW8SKAo1AFAi006G7Va-1" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #a7c942 ; color: #ffffff ; border: 1px solid #98bf21&quot;&gt;&lt;th align=&quot;left&quot;&gt;Nom&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Type de donnée&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Description&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;id&lt;/td&gt;&lt;td&gt;Int8&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;value&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;Varchar(255)&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;Le mountant de l&#39;offre&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;description&lt;/td&gt;&lt;td&gt;Varchar(255)&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;closingDate&lt;/td&gt;&lt;td&gt;Date&lt;/td&gt;&lt;td&gt;La date de fin de l&#39;offre ne peut pas&lt;br&gt;&amp;nbsp;être supérieur a la date de début&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="eWpMbG8aKiFwIkCeqAVB-2">
+          <mxGeometry y="30" width="380" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="eWpMbG8aKiFwIkCeqAVB-1" value="Deal" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="eWpMbG8aKiFwIkCeqAVB-2">
+          <mxGeometry x="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iPHL0gbXy4Uex4N_Wp8P-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="100" y="860" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="TdOvYNR6Es4IxIwEvKgQ-6" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #a7c942 ; color: #ffffff ; border: 1px solid #98bf21&quot;&gt;&lt;th align=&quot;left&quot;&gt;Nom&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Type de donnée&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Description&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;id&lt;/td&gt;&lt;td&gt;Int2&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;name&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;Varchar(255)&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&quot;text-align: center ; background-color: rgb(248 , 249 , 250)&quot;&gt;Name peut être:&lt;/span&gt;&lt;br style=&quot;text-align: center ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;text-align: center ; background-color: rgb(248 , 249 , 250)&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center ; background-color: rgb(248 , 249 , 250)&quot;&gt;ADVERTISING&lt;/span&gt;&lt;span style=&quot;text-align: center ; background-color: rgb(248 , 249 , 250)&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center ; background-color: rgb(248 , 249 , 250)&quot;&gt;- PROMOTION&lt;/span&gt;&lt;br style=&quot;text-align: center ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;text-align: center ; background-color: rgb(248 , 249 , 250)&quot;&gt;- BRANDING&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="iPHL0gbXy4Uex4N_Wp8P-1">
+          <mxGeometry y="30" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TdOvYNR6Es4IxIwEvKgQ-7" value="Pipeline" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iPHL0gbXy4Uex4N_Wp8P-1">
+          <mxGeometry x="92.90322580645159" width="46.4516129032258" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yaUyvp-snbhRN4BSm7Sl-2" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="90" y="392" width="220" height="99.11" as="geometry" />
+        </mxCell>
+        <mxCell id="481W4iNAz8cT9sLEtkwE-2" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #a7c942 ; color: #ffffff ; border: 1px solid #98bf21&quot;&gt;&lt;th align=&quot;left&quot;&gt;Nom&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Type de donnée&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Description&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;id&lt;/td&gt;&lt;td&gt;Int2&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;name&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;Varchar(255)&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="yaUyvp-snbhRN4BSm7Sl-2">
+          <mxGeometry y="29.999999999999996" width="220" height="69.10999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="yaUyvp-snbhRN4BSm7Sl-1" value="LeadGroup" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yaUyvp-snbhRN4BSm7Sl-2">
+          <mxGeometry x="80.00000000000001" width="40.00000000000001" height="29.999999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="V9xdQWOZmuIdFziF8DeH-2" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="340" y="392" width="220" height="99.11000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="I47w-cT4NJU6pzqXJcn5-3" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #a7c942 ; color: #ffffff ; border: 1px solid #98bf21&quot;&gt;&lt;th align=&quot;left&quot;&gt;Nom&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Type de donnée&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Description&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;id&lt;/td&gt;&lt;td&gt;Int4&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;name&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;Varchar(255)&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;container=0;" vertex="1" parent="V9xdQWOZmuIdFziF8DeH-2">
+          <mxGeometry y="30" width="220" height="69.11" as="geometry" />
+        </mxCell>
+        <mxCell id="V9xdQWOZmuIdFziF8DeH-1" value="Organization" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="V9xdQWOZmuIdFziF8DeH-2">
+          <mxGeometry x="80" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
