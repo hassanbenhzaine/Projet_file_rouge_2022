@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="27492683-e998-4339-b732-970b6b51d60a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/activity/CreateActivityDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/activity/GetActivityDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/activity/UpdateActivityDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/activityType/CreateActivityTypeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/activityType/GetActivityTypeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/activityType/UpdateActivityTypeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/administrator/CreateAdministratorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/administrator/UpdateAdministratorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/auth/PersonInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/auth/RegisterPersonDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/exercise/CreateExerciseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/exercise/GetExerciseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/exercise/UpdateExerciseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/participant/CreateParticipantDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/participant/GetParticipantDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/participant/UpdateParticipantDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/person/CreatePersonDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/person/GetPersonDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/person/UpdatePersonDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/responsible/CreateResponsibleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/responsible/GetResponsibleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/responsible/UpdateResponsibleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/role/CreateRoleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/dto/role/UpdateRoleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/entity/test/Deal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/entity/test/Organization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/entity/test/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/entity/test/PersonAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/entity/test/Pipeline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/youcode/wdcmanager/entity/test/Proposal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/untitled/src/Task.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="bfa266ec-e99d-4ac8-8520-42200a6fc325" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29UIh7UQJnHn89FptDaslrVbERG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../systeme_de_pointage" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27492683-e998-4339-b732-970b6b51d60a" name="Changes" comment="" />
+      <created>1653161353963</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653161353963</updated>
+    </task>
+    <servers />
+  </component>
+</project>
