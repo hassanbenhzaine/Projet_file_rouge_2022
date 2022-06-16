@@ -1,9 +1,11 @@
-FROM openjdk:8-jre-slim-buster
+FROM openjdk:17-jdk-slim
 
-COPY target/*.jar home/wdcmanager/wdcmanager.jar
+ENV POSTGRES_PASSWORD=postgres
 
-WORKDIR /home/wdcmanager
+ADD target/crm-0.0.1-SNAPSHOT.jar /home/app.jar
+
+WORKDIR /home
 
 EXPOSE 8080
 
-CMD java -jar wdcmanager.jar
+ENTRYPOINT ["java", "-Dspring.profiles.active=prod", "-jar", "app.jar"]

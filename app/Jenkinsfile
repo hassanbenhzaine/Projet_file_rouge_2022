@@ -1,41 +1,20 @@
-pipeline{
-    agent any
+pipeline {
+     agent any
 
-    environment {
-        DOCKER_CREDENTIALS=credentials('docker-hassanbenhzaine')
-    }
+     tools {
+         maven "M3"
+     }
 
-    stages {
-        stage('Test & build') {
+     stages {
+         stage('Build') {
+             steps {
+                 sh "mvn clean compile"
+             }
+         }
+         stage('Test') {
             steps {
-                sh 'mvn clean package -Dmaven.test.skip=true'
+                sh "mvn test"
             }
-        }
-
-
-        stage('Build docker image') {
-            steps {
-                sh 'docker build -t hassanbenhzaine/wdcmanager:latest .'
-            }
-        }
-        stage('Login Docker') {
-
-            steps {
-                sh 'echo $DOCKER_CREDENTIALS_PSW | docker login -u $DOCKER_CREDENTIALS_USR --password-stdin'
-            }
-        }
-        stage('Push to docker') {
-
-            steps {
-                sh 'docker push hassanbenhzaine/wdcmanager:latest'
-            }
-        }
-    }
-
-    post {
-        always {
-            sh 'docker logout'
-        }
-    }
-
-}
+         }
+     }
+ }
