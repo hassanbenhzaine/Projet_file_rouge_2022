@@ -14,6 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
+import java.security.Principal;
 import java.util.List;
 
 import static com.youcode.crm.controller.ApiMapping.EMPLOYEES_REST_URL;
@@ -37,6 +38,12 @@ public class EmployeeController {
     @PreAuthorize("hasAuthority('EMPLOYEE') or hasAuthority('MANAGER') or hasAuthority('ADMIN')")
     public ResponseEntity<EmployeeDTO> getEmployeeById(@PathVariable final Long id){
         return status(HttpStatus.OK).body(employeeService.getEmployeeById(id));
+    }
+
+    @GetMapping(path = "/profile", produces=APPLICATION_JSON_VALUE)
+    @PreAuthorize("hasAuthority('EMPLOYEE') or hasAuthority('MANAGER') or hasAuthority('ADMIN')")
+    public ResponseEntity<EmployeeDTO> getAuthenticatedEmployee(final Principal principal){
+        return status(HttpStatus.OK).body(employeeService.getEmployeeByEmail(principal.getName()));
     }
 
     @GetMapping(path= "/firstname",produces=APPLICATION_JSON_VALUE)

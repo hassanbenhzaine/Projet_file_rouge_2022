@@ -1,6 +1,8 @@
 package com.youcode.crm.security.login;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import static com.youcode.crm.controller.ApiMapping.LOGIN_REST_URL;
@@ -14,7 +16,8 @@ public class LoginController {
     private final LoginService loginService;
 
     @PostMapping(consumes = APPLICATION_JSON_VALUE)
-    public String login(@RequestBody LoginRequest request) {
+    public String login(@RequestBody final LoginRequest request) {
         return loginService.login(request);
     }
+
 }

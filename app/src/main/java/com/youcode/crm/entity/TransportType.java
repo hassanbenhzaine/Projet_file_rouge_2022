@@ -16,7 +16,6 @@ import static javax.persistence.CascadeType.REMOVE;
 @ToString
 @Entity
 @Builder
-@Table(name = "TYPES_OF_TRANSPORT")
 public class TransportType {
 
     @Id
@@ -24,10 +23,12 @@ public class TransportType {
     private MODE_OF_TRANSPORT_CODE code;
 
     private String fullName;
+
     private Double minLength;
     private Double maxLength;
     private Double minWeight;
     private Double maxWeight;
+
     private Integer transportCapacity;
 
 

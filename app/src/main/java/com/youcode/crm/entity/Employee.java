@@ -54,7 +54,7 @@ public class Employee implements UserDetails {
     @NotBlank(message = "Employee cin cannot be blank")
     private String cin;
 
-    private String sex;
+    private String gender;
 
     @Past
     private LocalDate birthdate;

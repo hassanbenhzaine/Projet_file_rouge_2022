@@ -22,7 +22,6 @@ import static javax.persistence.CascadeType.REMOVE;
 @JsonIdentityInfo(
         generator = ObjectIdGenerators.PropertyGenerator.class,
         property = "id")
-@Table(name = "DEPARTMENTS")
 @Builder
 @AllArgsConstructor
 public class Department {

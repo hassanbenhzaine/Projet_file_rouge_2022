@@ -16,7 +16,6 @@ import static javax.persistence.CascadeType.REMOVE;
 @Entity
 @Builder
 @AllArgsConstructor
-@Table(name = "SELLING_INVOICE")
 public class SellingInvoice {
 
     @Id

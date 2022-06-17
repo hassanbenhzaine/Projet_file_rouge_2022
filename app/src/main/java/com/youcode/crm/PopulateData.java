@@ -3,7 +3,7 @@ package com.youcode.crm;
 import com.youcode.crm.entity.*;
 import com.youcode.crm.enums.CURRENCY;
 import com.youcode.crm.enums.MODE_OF_TRANSPORT_CODE;
-import com.youcode.crm.enums.UNITS_OF_MEASURE;
+import com.youcode.crm.enums.UNIT_OF_MEASURE;
 import com.youcode.crm.enums.USER_ROLE;
 import com.youcode.crm.repository.*;
 import com.youcode.crm.security.registration.token.ConfirmationToken;
@@ -87,7 +87,7 @@ public class PopulateData implements CommandLineRunner{
                     .isLocked(false)
                     .password(passwordEncoder.encode("password"))
                     .salary(new Random().nextDouble() * 1000)
-                    .sex("M")
+                    .gender("M")
                     .userRole(USER_ROLE.values()[random.nextInt(USER_ROLE.values().length)])
                     .build();
 
@@ -146,7 +146,7 @@ public class PopulateData implements CommandLineRunner{
                     .purchasePrice(new Random().nextDouble())
                     .sellingPrice(new Random().nextDouble())
                     .taxRate(new Random().nextDouble() * 100)
-                    .unitsOfMeasure(UNITS_OF_MEASURE.values()[random.nextInt(UNITS_OF_MEASURE.values().length)])
+                    .unitOfMeasure(UNIT_OF_MEASURE.values()[random.nextInt(UNIT_OF_MEASURE.values().length)])
                     .type(productTypeList.get(new Random().nextInt(productTypeList.size())))
                     .build();
 
@@ -215,7 +215,7 @@ public class PopulateData implements CommandLineRunner{
                     .product(productList.get(new Random().nextInt(productList.size())))
                     .alternativeUnitOfMeasure("KG")
                     .conversionFactor(new Random().nextDouble())
-                    .unitOfMeasure(UNITS_OF_MEASURE.values()[new Random().nextInt(UNITS_OF_MEASURE.values().length)])
+                    .unitOfMeasure(UNIT_OF_MEASURE.values()[new Random().nextInt(UNIT_OF_MEASURE.values().length)])
                     .build();
 
             productUnitList.add(productUnit);

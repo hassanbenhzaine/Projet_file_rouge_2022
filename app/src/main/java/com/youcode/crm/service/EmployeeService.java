@@ -1,8 +1,6 @@
 package com.youcode.crm.service;
 
-import com.youcode.crm.entity.Department;
 import com.youcode.crm.entity.Employee;
-import com.youcode.crm.entity.dto.DepartmentDTO;
 import com.youcode.crm.entity.dto.EmployeeDTO;
 import com.youcode.crm.mapper.EmployeeMapper;
 import com.youcode.crm.repository.EmployeeRepository;
@@ -136,6 +134,13 @@ public class EmployeeService implements UserDetailsService, CurrentTimeInterface
         return employeeMapper.mapEmployeeToDto(employee);
     }
 
+    @Transactional(readOnly = true)
+    public EmployeeDTO getEmployeeByEmail(String email) {
+        Employee employee = employeeRepository.findByEmail(email)
+                .orElseThrow(()-> new ResponseStatusException(HttpStatus.NOT_FOUND, "Employee cannot be found, the specified email does not exist"));
+        return employeeMapper.mapEmployeeToDto(employee);
+    }
+
     /**
      * The method is to retrieve employee whose have the firstname specified by the user.
      * After downloading all the data about the employee,
@@ -175,7 +180,7 @@ public class EmployeeService implements UserDetailsService, CurrentTimeInterface
         editedEmployee.setPassword(mappedEmployee.getPassword());
         editedEmployee.setUserRole(mappedEmployee.getUserRole());
         editedEmployee.setCin(mappedEmployee.getCin());
-        editedEmployee.setSex(mappedEmployee.getSex());
+        editedEmployee.setGender(mappedEmployee.getGender());
         editedEmployee.setBirthdate(mappedEmployee.getBirthdate());
         editedEmployee.setSalary(mappedEmployee.getSalary());
         editedEmployee.setPhone(mappedEmployee.getPhone());

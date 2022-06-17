@@ -12,13 +12,11 @@ import static javax.persistence.CascadeType.REMOVE;
 @Builder
 @AllArgsConstructor
 @Entity
-@Table(name = "PURCHASES_POSITIONS")
 public class PurchasePosition {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
 
-    @Column(name = "PURCHASE_NUMBER")
     private Long id;
 
     @OneToOne(mappedBy = "purchasePosition", cascade = {REMOVE, MERGE})

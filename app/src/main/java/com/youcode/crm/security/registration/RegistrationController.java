@@ -12,19 +12,20 @@ import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 @RestController
 @RequestMapping(REGISTRATION_REST_URL)
 @RequiredArgsConstructor
+@CrossOrigin("*")
 public class RegistrationController {
     private final RegistrationService registrationService;
 
     @PostMapping(consumes = APPLICATION_JSON_VALUE, produces=APPLICATION_JSON_VALUE)
     @PreAuthorize("hasAuthority('ADMIN')")
-    public String register(@RequestBody RegistrationRequest request) {
+    public String register(@RequestBody final RegistrationRequest request) {
         return registrationService.register(request).toString();
     }
 
 
     @GetMapping(path = "/confirm", produces=APPLICATION_JSON_VALUE)
     @PreAuthorize("hasAuthority('EMPLOYEE') or hasAuthority('MANAGER') or hasAuthority('ADMIN')")
-    public String confirm(@RequestParam UUID token) {
+    public String confirm(@RequestParam final UUID token) {
         return registrationService.confirmToken(token);
     }
 }

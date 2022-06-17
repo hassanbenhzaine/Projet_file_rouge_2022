@@ -41,7 +41,7 @@ public class RegistrationService {
                         .password(request.getPassword())
                         .userRole(USER_ROLE.EMPLOYEE)
                         .cin(request.getCin())
-                        .sex(request.getSex())
+                        .gender(request.getSex())
                         .birthdate(request.getBirthdate())
                         .salary(request.getSalary())
                         .department(request.getDepartment())

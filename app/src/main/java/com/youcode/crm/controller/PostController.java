@@ -33,7 +33,7 @@ public class PostController {
 
     @PostMapping(consumes=APPLICATION_JSON_VALUE, produces = APPLICATION_JSON_VALUE)
     @PreAuthorize("hasAuthority('EMPLOYEE') or hasAuthority('MANAGER') or hasAuthority('ADMIN')")
-    public ResponseEntity<PostDTO> addNewPost(@RequestBody PostDTO post, Principal principal) {
+    public ResponseEntity<PostDTO> addNewPost(@RequestBody final PostDTO post, Principal principal) {
         return status(HttpStatus.CREATED).body(postService.addNewPost(post, principal));
     }
 

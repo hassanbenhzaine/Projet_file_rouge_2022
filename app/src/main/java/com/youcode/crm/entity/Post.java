@@ -36,7 +36,7 @@ public class Post {
     private LocalDateTime createdAt;
 
     @Column(nullable = false, length = 40)
-    @NotBlank(message = "Post Title cannot be empty or Null")
+    @NotBlank(message = "Post Title cannot be blank")
     private String title;
 
     @Column(columnDefinition = "TEXT")
